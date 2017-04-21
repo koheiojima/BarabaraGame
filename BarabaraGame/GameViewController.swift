@@ -29,7 +29,7 @@ class GameViewController: UIViewController {
     func up() {
         for i in 0..<3 {
             if positionX[i] > width || positionX[i] < 0 {
-                dx[i] += dx[i] * (-1)
+                dx[i] = dx[i] * (-1)
             }
             positionX[i] += dx[i]
         }

@@ -35,15 +35,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Hq-5r-xlH">
-                                <rect key="frame" x="111" y="411" width="152" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="ランキング"/>
-                                <connections>
-                                    <segue destination="myD-Ai-BUi" kind="show" id="OLg-3E-mEe"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-Nu-Q7n">
                                 <rect key="frame" x="118" y="338" width="138" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -51,6 +42,15 @@
                                 <state key="normal" title="スタート"/>
                                 <connections>
                                     <segue destination="R0i-bS-4dk" kind="show" id="Nj4-Ld-Pag"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Hq-5r-xlH">
+                                <rect key="frame" x="104" y="439" width="152" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="ランキング"/>
+                                <connections>
+                                    <segue destination="myD-Ai-BUi" kind="show" id="OLg-3E-mEe"/>
                                 </connections>
                             </button>
                         </subviews>
