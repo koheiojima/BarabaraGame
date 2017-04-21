@@ -12,6 +12,10 @@
 		A31EEC141EA91B9C00C8EFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31EEC121EA91B9C00C8EFDB /* Main.storyboard */; };
 		A31EEC161EA91B9C00C8EFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31EEC151EA91B9C00C8EFDB /* Assets.xcassets */; };
 		A31EEC191EA91B9C00C8EFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31EEC171EA91B9C00C8EFDB /* LaunchScreen.storyboard */; };
+		A31EEC221EA91D6D00C8EFDB /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A31EEC201EA91D6D00C8EFDB /* bar.png */; };
+		A31EEC231EA91D6D00C8EFDB /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = A31EEC211EA91D6D00C8EFDB /* tail.png */; };
+		A31EEC251EA921D500C8EFDB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EEC241EA921D500C8EFDB /* GameViewController.swift */; };
+		A31EEC271EA9223800C8EFDB /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EEC261EA9223800C8EFDB /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A31EEC151EA91B9C00C8EFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31EEC181EA91B9C00C8EFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31EEC1A1EA91B9C00C8EFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31EEC201EA91D6D00C8EFDB /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		A31EEC211EA91D6D00C8EFDB /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		A31EEC241EA921D500C8EFDB /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A31EEC261EA9223800C8EFDB /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		A31EEC0D1EA91B9C00C8EFDB /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				A31EEC201EA91D6D00C8EFDB /* bar.png */,
+				A31EEC211EA91D6D00C8EFDB /* tail.png */,
+				A31EEC241EA921D500C8EFDB /* GameViewController.swift */,
+				A31EEC261EA9223800C8EFDB /* RankingViewController.swift */,
 				A31EEC0E1EA91B9C00C8EFDB /* AppDelegate.swift */,
 				A31EEC101EA91B9C00C8EFDB /* ViewController.swift */,
 				A31EEC121EA91B9C00C8EFDB /* Main.storyboard */,
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31EEC191EA91B9C00C8EFDB /* LaunchScreen.storyboard in Resources */,
+				A31EEC231EA91D6D00C8EFDB /* tail.png in Resources */,
 				A31EEC161EA91B9C00C8EFDB /* Assets.xcassets in Resources */,
 				A31EEC141EA91B9C00C8EFDB /* Main.storyboard in Resources */,
+				A31EEC221EA91D6D00C8EFDB /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31EEC111EA91B9C00C8EFDB /* ViewController.swift in Sources */,
+				A31EEC251EA921D500C8EFDB /* GameViewController.swift in Sources */,
 				A31EEC0F1EA91B9C00C8EFDB /* AppDelegate.swift in Sources */,
+				A31EEC271EA9223800C8EFDB /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
